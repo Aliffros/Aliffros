@@ -2,9 +2,9 @@
 
 # Hi, I'm Aliff Ros 👋
 
-**Teacher turned engineer. I build AI-native EdTech on the edge, for free.**
+**Teacher turned engineer. I build AI-native EdTech on the edge, at low cost.**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=560&height=45&lines=AI-Native+Web+Developer+%26+EdTech+Builder;From+exam+rubrics+to+edge+software;Shipping+daily+with+Claude+Code;Production+at+RM0.00%2Fmonth" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=560&height=45&lines=AI-Native+Web+Developer+%26+EdTech+Builder;From+exam+rubrics+to+edge+software;Shipping+daily+with+Claude+Code;Low-cost+edge+production" alt="Typing intro" />
 
 <a href="https://bloomeval.my"><img src="https://img.shields.io/badge/BloomEval-Live-00F0FF?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0d1117" alt="BloomEval live" /></a>
 <a href="https://bloomeval-playground.pages.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portfolio" /></a>
