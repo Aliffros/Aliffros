@@ -65,14 +65,18 @@ I'm a full-stack, AI-native web developer with a **B.Ed TESL (Dean's List)** bac
 
 <div align="center">
 
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=ts,react,vite,tailwind&theme=dark" alt="Frontend" />
-
-**Backend & Edge**<br/>
-<img src="https://skillicons.dev/icons?i=python,cloudflare,sqlite&theme=dark" alt="Backend and edge" />
-
-**Workflow**<br/>
-<img src="https://skillicons.dev/icons?i=git,githubactions,vscode&theme=dark" alt="Workflow" />
+<img src="https://img.shields.io/badge/TypeScript-07090e?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-07090e?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Vite-07090e?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-07090e?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+<br/>
+<img src="https://img.shields.io/badge/Cloudflare_Pages-07090e?style=for-the-badge&logo=cloudflarepages&logoColor=F38020" alt="Cloudflare Pages" />
+<img src="https://img.shields.io/badge/Cloudflare_D1-07090e?style=for-the-badge&logo=sqlite&logoColor=00F0FF" alt="Cloudflare D1" />
+<img src="https://img.shields.io/badge/Python-07090e?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/Google_Gemini-07090e?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Google Gemini" />
+<br/>
+<img src="https://img.shields.io/badge/Git-07090e?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-07090e?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
 
 </div>
 

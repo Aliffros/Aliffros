@@ -44,6 +44,10 @@
   .stats sub { color:var(--muted); }
   .icons { display:flex; justify-content:center; gap:8px; margin:6px 0 14px; }
   .icon { width:48px; height:48px; border-radius:11px; background:#242938; display:flex; align-items:center; justify-content:center; font:700 13px/1 ui-monospace,monospace; }
+  .tech { line-height:0; }
+  .tech > div { display:inline-flex; align-items:center; gap:8px; height:28px; margin:3px 2px; padding:0 12px; background:#07090e; color:#fff; font:700 11px/1 Verdana,sans-serif; letter-spacing:1.5px; text-transform:uppercase; }
+  .tech span { color:var(--c); font-size:13px; letter-spacing:0; }
+  .tech br { display:block; content:""; margin:0; }
   .snake img { width:100%; display:block; }
   .note { max-width:1280px; margin:0 auto 32px; padding:0 24px; color:var(--muted); font-size:12px; text-align:right; }
 </style>
@@ -118,19 +122,12 @@
 
         <hr/>
         <h3>🛠️ Toolbox</h3>
-        <div class="center">
-          <b>Frontend</b>
-          <div class="icons">
-            <div class="icon" style="color:#3178c6">TS</div><div class="icon" style="color:#61dafb">⚛</div><div class="icon" style="color:#bd34fe">⚡</div><div class="icon" style="color:#38bdf8">≈</div>
-          </div>
-          <b>Backend &amp; Edge</b>
-          <div class="icons">
-            <div class="icon" style="color:#ffd43b">Py</div><div class="icon" style="color:#f38020">☁</div><div class="icon" style="color:#7dd3fc">DB</div>
-          </div>
-          <b>Workflow</b>
-          <div class="icons">
-            <div class="icon" style="color:#f05032">git</div><div class="icon" style="color:#2088ff">▶</div><div class="icon" style="color:#22a6f2">{ }</div>
-          </div>
+        <div class="center tech">
+          <div><span style="--c:#3178C6">TS</span>TypeScript</div><div><span style="--c:#61DAFB">⚛</span>React</div><div><span style="--c:#646CFF">⚡</span>Vite</div><div><span style="--c:#06B6D4">≈</span>Tailwind CSS</div>
+          <br/>
+          <div><span style="--c:#F38020">☁</span>Cloudflare Pages</div><div><span style="--c:#00F0FF">◆</span>Cloudflare D1</div><div><span style="--c:#3776AB">Py</span>Python</div><div><span style="--c:#8E75B2">✦</span>Google Gemini</div>
+          <br/>
+          <div><span style="--c:#F05032">◈</span>Git</div><div><span style="--c:#2088FF">▶</span>GitHub Actions</div>
         </div>
 
         <hr/>
