@@ -1,42 +1,83 @@
 <div align="center">
 
-# Aliff Ros
+# Hi, I'm Aliff Ros 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=520&height=45&lines=AI-Native+Web+Developer+%26+EdTech+Builder;Edge+Cloud+%E2%80%A2+Serverless+D1+%E2%80%A2+Applied+AI;Autonomous+Agents+%E2%80%A2+Modern+Full-Stack;Zero-Cost+Production+Architectures" alt="Aliff Ros Typing SVG" />
+**Teacher turned engineer. I build AI-native EdTech on the edge, at low cost.**
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=560&height=45&lines=AI-Native+Web+Developer+%26+EdTech+Builder;From+exam+rubrics+to+edge+software;Shipping+daily+with+Claude+Code;Low-cost+edge+production" alt="Typing intro" />
 
-<a href="https://github.com/Aliffros">
-  <img src="https://skillicons.dev/icons?i=ts,react,vite,tailwind,python,cloudflare,sqlite,git,githubactions&theme=dark" alt="Core Technologies" />
-</a>
+<a href="https://bloomeval.my"><img src="https://img.shields.io/badge/BloomEval-Live-00F0FF?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0d1117" alt="BloomEval live" /></a>
+<a href="https://bloomeval-playground.pages.dev"><img src="https://img.shields.io/badge/Playground-Try_it-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="BloomEval playground" /></a>
+<img src="https://img.shields.io/badge/Based_in-Malaysia_🇲🇾-F5C518?style=for-the-badge&labelColor=0d1117" alt="Malaysia" />
 
 </div>
 
 ---
 
-Full-Stack AI-Native Web Developer specializing in the design, build, and deployment of production web applications that bridge educational pedagogy with edge systems and applied multimodal AI.
+### 🧭 About
 
-With a foundation in Secondary Education (B.Ed TESL, Dean's List), my engineering practice focuses on translating instructional frameworks, national exam rubrics, and high-volume teacher workflows into low-latency, zero-cost serverless software.
+Full-stack AI-native web developer with a **B.Ed TESL (Dean's List)** background. I turn national exam rubrics and real teacher workflows into fast, low-cost software on the edge.
 
 ---
 
-### Featured Project: BloomEval
+### 🚀 Featured: [BloomEval](https://bloomeval.my)
 
-> Localized Pedagogical and Cognitive Depth Evaluation for ESL Writing via Edge LLM-as-a-Judge and Multimodal Vision OCR.
+> Pedagogical and cognitive depth evaluation for ESL writing, using edge LLM-as-a-Judge and multimodal vision OCR.
 
-- Client-side canvas downscaling processes physical handwritten foolscap scripts under 400 KB and extracts paragraphs via multimodal vision in under two seconds with zero server file persistence.
-- Dual-pathway engine enforces official Lembaga Peperiksaan Malaysia band descriptors (SPM 1119 Paper 2) across Content, Communicative Achievement, Organisation, and Language alongside Bloom's Revised Taxonomy cognitive mapping.
-- Serverless edge deployment on Cloudflare Pages and Cloudflare D1 operates continuously at RM0.00 monthly infrastructure cost with verified Pearson r = 0.942 scoring parity.
+<table>
+  <tr>
+    <td align="center"><h3>&lt; 2s</h3><sub>script to text</sub></td>
+    <td align="center"><h3>r = 0.942</h3><sub>scoring parity</sub></td>
+    <td align="center"><h3>RM0.00</h3><sub>monthly infra</sub></td>
+  </tr>
+</table>
 
-**Live Platform:** [bloomeval.my](https://bloomeval.my) • **Staging Engine:** [bloomeval-playground.pages.dev](https://bloomeval-playground.pages.dev)
+- 📝 Handwritten scripts are downscaled in the browser (under 400 KB) and read by multimodal vision, with **zero server file persistence**.
+- 📏 Scores against official **LPM band descriptors (SPM 1119 Paper 2)** and maps each essay to **Bloom's Revised Taxonomy**.
+- ☁️ Runs serverless on **Cloudflare Pages + D1**.
+
+---
+
+### 🤖 How I ship
+
+<div align="center">
+
+<img src="./assets/claude-code-workflow.svg" alt="Claude Code workflow: prompt, read, edit, test, deploy" width="100%" />
+
+<img src="https://img.shields.io/badge/Claude_Code-CLI-07090e?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code CLI" />
+<img src="https://img.shields.io/badge/Claude_Code-Desktop-07090e?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code Desktop" />
+
+</div>
+
+---
+
+### 🛠️ Toolbox
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/TypeScript-07090e?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-07090e?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Vite-07090e?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-07090e?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+<br/>
+<img src="https://img.shields.io/badge/Cloudflare_Pages-07090e?style=for-the-badge&logo=cloudflarepages&logoColor=F38020" alt="Cloudflare Pages" />
+<img src="https://img.shields.io/badge/Cloudflare_D1-07090e?style=for-the-badge&logo=sqlite&logoColor=00F0FF" alt="Cloudflare D1" />
+<img src="https://img.shields.io/badge/Python-07090e?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/Google_Gemini-07090e?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Google Gemini" />
+<br/>
+<img src="https://img.shields.io/badge/Git-07090e?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-07090e?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+
+</div>
 
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aliffros/Aliffros/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
-</div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aliffros/Aliffros/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aliffros/Aliffros/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Aliffros/Aliffros/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="100%" />
+  </picture>
 
-<p align="center">
-  <a href="https://bloomeval-playground.pages.dev">Portfolio</a> • 
-  <span>Malaysia</span>
-</p>
+  <sub>Built in Malaysia 🇲🇾 · Terima kasih for visiting!</sub>
+</div>
