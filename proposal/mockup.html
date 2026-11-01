@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Mockup: Aliffros GitHub profile README</title>
+<style>
+  :root { --bg:#0d1117; --panel:#0d1117; --border:#30363d; --fg:#e6edf3; --muted:#8b949e; --link:#4493f8; --cyan:#00F0FF; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
+  .topbar { height:64px; border-bottom:1px solid var(--border); background:#010409; display:flex; align-items:center; padding:0 24px; gap:12px; color:var(--muted); font-size:14px; }
+  .topbar .logo { width:32px; height:32px; border-radius:50%; background:var(--fg); }
+  .layout { max-width:1280px; margin:0 auto; padding:32px 24px; display:grid; grid-template-columns:296px 1fr; gap:24px; }
+  .side .avatar { width:296px; height:296px; border-radius:50%; border:1px solid var(--border); background:radial-gradient(circle at 35% 30%, #00F0FF55, #8B5CF655 50%, #161b22 75%); display:flex; align-items:center; justify-content:center; font-size:96px; font-weight:700; color:#e6edf3cc; }
+  .side h1 { margin:16px 0 0; font-size:26px; line-height:1.25; }
+  .side .handle { color:var(--muted); font-size:20px; font-weight:300; }
+  .side .btn { margin-top:16px; width:100%; padding:6px; text-align:center; border:1px solid var(--border); border-radius:6px; background:#21262d; font-size:14px; }
+  .side .meta { margin-top:16px; color:var(--muted); font-size:14px; }
+  .tabs { display:flex; gap:24px; border-bottom:1px solid var(--border); font-size:14px; padding-bottom:10px; margin-bottom:24px; }
+  .tabs .on { border-bottom:2px solid #f78166; padding-bottom:9px; margin-bottom:-11px; font-weight:600; }
+  .readme { border:1px solid var(--border); border-radius:6px; padding:24px 32px; }
+  .readme .crumb { font-size:12px; color:var(--muted); margin-bottom:12px; font-family:ui-monospace,monospace; }
+  .md h1 { font-size:2em; border-bottom:1px solid #30363db3; padding-bottom:.3em; margin:.2em 0 16px; }
+  .md h3 { font-size:1.25em; margin:24px 0 16px; }
+  .md hr { height:4px; background:#30363d; border:0; margin:24px 0; }
+  .md a { color:var(--link); text-decoration:none; }
+  .md blockquote { margin:0 0 16px; padding:0 1em; color:var(--muted); border-left:.25em solid #3d444d; }
+  .md table { border-collapse:collapse; margin-bottom:16px; }
+  .md td, .md th { border:1px solid #3d444d; padding:6px 13px; }
+  .md tr:nth-child(2n) { background:#151b23; }
+  .md th { font-weight:600; text-align:left; }
+  .md ul { padding-left:2em; }
+  .md li { margin:.25em 0; }
+  .center { text-align:center; }
+  .typing { font-family:"Fira Code",ui-monospace,monospace; color:var(--cyan); font-size:18px; margin:4px 0 14px; }
+  .typing::after { content:"▌"; animation:blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity:0; } }
+  .badges { display:flex; justify-content:center; gap:6px; flex-wrap:wrap; }
+  .badge { display:inline-flex; font:700 11px/1 Verdana,sans-serif; letter-spacing:1px; text-transform:uppercase; }
+  .badge span { padding:9px 12px; }
+  .badge .l { background:#0d1117; border:1px solid #30363d; border-right:0; color:#fff; }
+  .badge .r { color:#0d1117; }
+  .stats td { text-align:center; min-width:170px; background:#0d1117 !important; }
+  .stats h3 { margin:6px 0 2px; color:var(--cyan); }
+  .stats sub { color:var(--muted); }
+  .icons { display:flex; justify-content:center; gap:8px; margin:6px 0 14px; }
+  .icon { width:48px; height:48px; border-radius:11px; background:#242938; display:flex; align-items:center; justify-content:center; font:700 13px/1 ui-monospace,monospace; }
+  .snake img { width:100%; display:block; }
+  .note { max-width:1280px; margin:0 auto 32px; padding:0 24px; color:var(--muted); font-size:12px; text-align:right; }
+</style>
+</head>
+<body>
+<div class="topbar"><div class="logo"></div> Aliffros</div>
+
+<div class="layout">
+  <aside class="side">
+    <div class="avatar">AR</div>
+    <h1>Aliff Ros</h1>
+    <div class="handle">Aliffros</div>
+    <div class="btn">Edit profile</div>
+    <div class="meta">📍 Malaysia<br/>🔗 bloomeval.my</div>
+  </aside>
+
+  <main>
+    <div class="tabs"><span class="on">Overview</span><span>Repositories</span><span>Projects</span><span>Packages</span><span>Stars</span></div>
+
+    <div class="readme">
+      <div class="crumb">Aliffros / README.md</div>
+      <div class="md">
+
+        <div class="center">
+          <h1 style="border:0">Hi, I'm Aliff Ros 👋</h1>
+          <p><b>Teacher turned engineer. I build AI-native EdTech that runs on the edge, for free.</b></p>
+          <div class="typing" id="typing">AI-Native Web Developer &amp; EdTech Builder</div>
+          <div class="badges">
+            <span class="badge"><span class="l">☁ BloomEval</span><span class="r" style="background:#00F0FF">Live</span></span>
+            <span class="badge"><span class="l">◎ Portfolio</span><span class="r" style="background:#8B5CF6;color:#fff">Visit</span></span>
+            <span class="badge"><span class="l">Based in</span><span class="r" style="background:#F5C518">Malaysia 🇲🇾</span></span>
+          </div>
+        </div>
+
+        <hr/>
+        <h3>🧭 About me</h3>
+        <p>I'm a full-stack, AI-native web developer with a <b>B.Ed TESL (Dean's List)</b> background. I spent my training inside classrooms, so I build software that respects how teachers actually work: national exam rubrics, marking piles, and zero budget.</p>
+        <table>
+          <tr><td>🎓 <b>Background</b></td><td>Secondary Education, TESL</td></tr>
+          <tr><td>🛠️ <b>Focus</b></td><td>Edge-first full-stack apps, LLM-as-a-Judge, multimodal OCR</td></tr>
+          <tr><td>🌱 <b>Learning</b></td><td>Autonomous agents and evaluation pipelines</td></tr>
+          <tr><td>🤝 <b>Open to</b></td><td>EdTech collabs, freelance builds, research partnerships</td></tr>
+          <tr><td>💬 <b>Languages</b></td><td>English, Bahasa Melayu</td></tr>
+        </table>
+
+        <hr/>
+        <h3>🚀 Featured project: <a href="#">BloomEval</a></h3>
+        <blockquote>Localized pedagogical and cognitive depth evaluation for ESL writing, powered by edge LLM-as-a-Judge and multimodal vision OCR.</blockquote>
+        <table class="stats"><tr>
+          <td><h3>&lt; 2s</h3><sub>handwritten script to text</sub></td>
+          <td><h3>&lt; 400 KB</h3><sub>client-side image payload</sub></td>
+          <td><h3>r = 0.942</h3><sub>scoring parity (Pearson)</sub></td>
+          <td><h3>RM0.00</h3><sub>monthly infra cost</sub></td>
+        </tr></table>
+        <ul>
+          <li>📝 <b>Snap and grade.</b> Teachers photograph handwritten foolscap scripts. Canvas downscaling happens in the browser, and nothing is stored on the server.</li>
+          <li>📏 <b>Rubric-faithful.</b> Enforces official Lembaga Peperiksaan Malaysia band descriptors (SPM 1119 Paper 2): Content, Communicative Achievement, Organisation, Language.</li>
+          <li>🧠 <b>Thinking depth.</b> Maps every essay to Bloom's Revised Taxonomy, so feedback covers <i>how</i> students think, not just <i>what</i> they wrote.</li>
+          <li>☁️ <b>Edge native.</b> Cloudflare Pages + D1, serverless end to end.</li>
+        </ul>
+        <p><b><a href="#">🌐 Live platform</a></b> · <b><a href="#">🧪 Staging engine</a></b></p>
+
+        <hr/>
+        <h3>🧩 How I build</h3>
+        <table>
+          <tr><th>Principle</th><th>What it means</th></tr>
+          <tr><td><b>Pedagogy first</b></td><td>Start from the rubric and the teacher's workflow, then write code.</td></tr>
+          <tr><td><b>Edge by default</b></td><td>Low latency for every school, from KL to rural Sabah.</td></tr>
+          <tr><td><b>Zero-cost production</b></td><td>Free tiers, used carefully, so schools never pay for infra.</td></tr>
+          <tr><td><b>Privacy by design</b></td><td>Student work is processed, not hoarded.</td></tr>
+        </table>
+
+        <hr/>
+        <h3>🛠️ Toolbox</h3>
+        <div class="center">
+          <b>Frontend</b>
+          <div class="icons">
+            <div class="icon" style="color:#3178c6">TS</div><div class="icon" style="color:#61dafb">⚛</div><div class="icon" style="color:#bd34fe">⚡</div><div class="icon" style="color:#38bdf8">≈</div>
+          </div>
+          <b>Backend &amp; Edge</b>
+          <div class="icons">
+            <div class="icon" style="color:#ffd43b">Py</div><div class="icon" style="color:#f38020">☁</div><div class="icon" style="color:#7dd3fc">DB</div>
+          </div>
+          <b>Workflow</b>
+          <div class="icons">
+            <div class="icon" style="color:#f05032">git</div><div class="icon" style="color:#2088ff">▶</div><div class="icon" style="color:#22a6f2">{ }</div>
+          </div>
+        </div>
+
+        <hr/>
+        <h3>🐍 Contribution snake</h3>
+        <div class="snake"><img src="snake-dark.svg" alt="snake" /></div>
+
+        <hr/>
+        <div class="center"><sub style="color:var(--muted)">Built with care in Malaysia 🇲🇾 · Terima kasih for visiting!</sub></div>
+      </div>
+    </div>
+  </main>
+</div>
+<div class="note">Mockup only. Badges and skill icons are stand-ins for shields.io and skillicons.dev images.</div>
+
+<script>
+  const lines = ["AI-Native Web Developer & EdTech Builder","From exam rubrics to edge software","Cloudflare Pages • D1 • Applied AI","Production at RM0.00/month"];
+  let i = 0; const el = document.getElementById("typing");
+  setInterval(() => { i = (i + 1) % lines.length; el.textContent = lines[i]; }, 2200);
+</script>
+</body>
+</html>
