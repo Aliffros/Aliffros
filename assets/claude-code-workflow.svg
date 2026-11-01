@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" role="img" aria-label="Aliff's Claude Code workflow: prompt, read, edit, test, deploy">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
+    .dim { fill: #8b949e; } .fg { fill: #e6edf3; } .ok { fill: #3fb950; } .acc { fill: #D97757; } .cy { fill: #00F0FF; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+
+  <rect x="1" y="1" width="858" height="328" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="858" height="38" rx="12" fill="#161b22"/>
+  <rect x="1" y="27" width="858" height="12" fill="#161b22"/>
+  <line x1="1" y1="39" x2="859" y2="39" stroke="#30363d"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="430" y="25" text-anchor="middle" class="mono dim" style="font-size:13px">~/bloomeval — claude</text>
+
+  <g class="mono">
+    <g class="l l1">
+      <rect x="28" y="58" width="300" height="44" rx="8" fill="none" stroke="#D97757" stroke-width="1.5"/>
+      <text x="46" y="86" class="acc">✻</text>
+      <text x="68" y="86" class="fg" font-weight="700">Claude Code</text>
+      <text x="180" y="86" class="dim">CLI + Desktop</text>
+    </g>
+
+    <text x="32" y="138" class="l l2"><tspan class="cy">&gt;</tspan><tspan class="fg" dx="10">add an SPM band check to the essay grader</tspan></text>
+
+    <text x="32" y="174" class="l l3"><tspan class="acc">⏺</tspan><tspan class="fg" dx="10">Read</tspan><tspan class="dim" dx="8">src/rubric/spm1119.ts</tspan></text>
+    <text x="32" y="202" class="l l4"><tspan class="acc">⏺</tspan><tspan class="fg" dx="10">Edit</tspan><tspan class="dim" dx="8">src/grader/judge.ts</tspan><tspan class="ok" dx="10">+42</tspan><tspan fill="#f85149" dx="6">−8</tspan></text>
+    <text x="32" y="230" class="l l5"><tspan class="acc">⏺</tspan><tspan class="fg" dx="10">Bash</tspan><tspan class="dim" dx="8">npm test</tspan><tspan class="ok" dx="12">✓ 38 passed</tspan></text>
+    <text x="32" y="258" class="l l6"><tspan class="acc">⏺</tspan><tspan class="fg" dx="10">Bash</tspan><tspan class="dim" dx="8">wrangler pages deploy</tspan><tspan class="ok" dx="12">✓ live on bloomeval.my</tspan></text>
+
+    <g class="l l7">
+      <text x="32" y="296"><tspan class="cy">&gt;</tspan></text>
+      <rect x="50" y="282" width="9" height="18" fill="#e6edf3" class="cursor"/>
+    </g>
+  </g>
+</svg>
