@@ -7,7 +7,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&width=560&height=45&lines=AI-Native+Web+Developer+%26+EdTech+Builder;From+exam+rubrics+to+edge+software;Shipping+daily+with+Claude+Code;Low-cost+edge+production" alt="Typing intro" />
 
 <a href="https://bloomeval.my"><img src="https://img.shields.io/badge/BloomEval-Live-00F0FF?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0d1117" alt="BloomEval live" /></a>
-<a href="https://bloomeval-playground.pages.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portfolio" /></a>
+<a href="https://bloomeval-playground.pages.dev"><img src="https://img.shields.io/badge/Playground-Try_it-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="BloomEval playground" /></a>
 <img src="https://img.shields.io/badge/Based_in-Malaysia_🇲🇾-F5C518?style=for-the-badge&labelColor=0d1117" alt="Malaysia" />
 
 </div>
@@ -16,15 +16,13 @@
 
 ### 🧭 About
 
-- 🎓 B.Ed TESL (Dean's List), now a full-stack AI-native developer
-- 🛠️ Edge-first apps, LLM-as-a-Judge, multimodal OCR
-- 🤝 Open to EdTech collabs and freelance builds
+Full-stack AI-native web developer with a **B.Ed TESL (Dean's List)** background. I turn national exam rubrics and real teacher workflows into fast, low-cost software on the edge.
 
 ---
 
 ### 🚀 Featured: [BloomEval](https://bloomeval.my)
 
-Snap a handwritten ESL essay, get an SPM 1119 band score and a Bloom's Taxonomy breakdown in seconds.
+> Pedagogical and cognitive depth evaluation for ESL writing, using edge LLM-as-a-Judge and multimodal vision OCR.
 
 <table>
   <tr>
@@ -34,7 +32,9 @@ Snap a handwritten ESL essay, get an SPM 1119 band score and a Bloom's Taxonomy 
   </tr>
 </table>
 
-**[🌐 Live](https://bloomeval.my)** · **[🧪 Staging](https://bloomeval-playground.pages.dev)**
+- 📝 Handwritten scripts are downscaled in the browser (under 400 KB) and read by multimodal vision, with **zero server file persistence**.
+- 📏 Scores against official **LPM band descriptors (SPM 1119 Paper 2)** and maps each essay to **Bloom's Revised Taxonomy**.
+- ☁️ Runs serverless on **Cloudflare Pages + D1**.
 
 ---
 
